@@ -1,0 +1,78 @@
+.body {
+  width: 100%;
+  height: 75vh;
+  margin: 0;
+}
+
+.stalker {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.stalker__poster {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  order: 2;
+}
+.stalker__left {
+  height: 50%;
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  order: 1;
+  align-self: center;
+}
+.stalker__right {
+  height: 70%;
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  order: 3;
+  align-self: center;
+  margin-right: 30px;
+}
+
+.btn {
+  background-color: transparent;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+.btn__about {
+  height: 60px;
+  width: 160px;
+  background-color: black;
+  align-self: flex-end;
+}
+.btn__link {
+  height: 75px;
+  width: 200px;
+  background-color: rgb(0, 0, 0);
+  align-self: start;
+}
+
+.text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text__title {
+  position: relative;
+  color: red;
+}
+.text__advert {
+  position: relative;
+  color: red;
+  align-self: flex-end;
+}/*# sourceMappingURL=index.css.map */
